@@ -1,0 +1,13 @@
+body {
+	margin: 10px;
+	color: grey;
+	font-family: "Titillium Web", sans-serif;
+
+	background-image: url(../../static/assets/black-and-white-plaid-textile.jpg);
+	background-size: 100%;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+}

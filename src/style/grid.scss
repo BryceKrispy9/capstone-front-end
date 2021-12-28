@@ -1,0 +1,28 @@
+.one-column {
+	@include base-grid();
+	grid-template-columns: 1fr;
+}
+
+.one-column-detailed {
+	@include base-grid();
+	grid-template-columns: 1fr;
+	display: inline-block;
+	min-width: 50px;
+	max-width: 200px;
+}
+
+.three-column {
+	@include base-grid();
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.four-column {
+	@include base-grid();
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.five-column {
+	@include base-grid();
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	color: black;
+}

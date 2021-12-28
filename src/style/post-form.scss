@@ -1,0 +1,12 @@
+.post-form-wrapper {
+	@include base-grid();
+	grid-template-columns: 1fr;
+	padding: 42px;
+	background-color: white;
+	height: 500px;
+
+	@include input();
+	input {
+		margin-bottom: 0px;
+	}
+}

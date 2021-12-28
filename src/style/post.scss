@@ -1,0 +1,43 @@
+.post-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+
+	h1 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.content-container {
+		display: flex;
+		flex-direction: column;
+
+		h1 {
+			margin-left: 15px;
+			color: $light-blue;
+			cursor: pointer;
+			transition: 0.5s ease-in-out;
+
+			&:hover {
+				color: yellow;
+			}
+		}
+	}
+
+	.content {
+		border: 3px;
+		border-style: solid;
+		border-color: $light-blue;
+		padding: 2em;
+
+		font-size: 1.5em;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		width: 500px;
+		height: 400px;
+		color: $offwhite;
+	}
+}

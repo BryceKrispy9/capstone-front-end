@@ -1,0 +1,26 @@
+.auth-page-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 45vh;
+	width: 70vw;
+	margin-top: 25px;
+	margin-left: 434px;
+
+	.right-side {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 75px;
+
+		.form-group {
+			display: flex;
+			margin-bottom: 10px;
+
+			svg {
+				font-size: 2em;
+				color: $light-blue;
+				margin-right: 15px;
+			}
+		}
+	}
+}

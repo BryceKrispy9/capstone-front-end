@@ -1,0 +1,38 @@
+.content-page-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.left-column {
+		display: flex;
+		align-items: center;
+		height: 500px;
+		margin-right: 42px;
+	}
+
+	.right-column {
+		margin-left: 15px;
+		cursor: pointer;
+		color: $offwhite;
+		transition: 0.3s ease-in-out;
+	}
+}
+
+.bullet-point-group {
+	display: flex;
+	align-items: center;
+
+	.icon {
+		font-size: 2em;
+		color: $light-blue;
+	}
+
+	.text {
+		font-size: 1.5em;
+		font-weight: 900;
+		margin-left: 21px;
+	}
+}

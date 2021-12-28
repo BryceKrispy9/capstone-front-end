@@ -1,0 +1,42 @@
+.login-page-input {
+	display: grid;
+	border-style: solid;
+	border-color: #287ec7;
+	padding-top: 0.5em;
+	padding-bottom: 3.6em;
+
+	.login-form-wrapper {
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		grid-gap: 30px;
+	}
+
+	h1 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 50px;
+	}
+
+	button {
+		height: 42px;
+		font-weight: 700;
+		background-color: white;
+		cursor: pointer;
+		transition: 0.5s ease-in-out;
+
+		&:hover {
+			background-color: darkgreen;
+		}
+	}
+}
+.auth-page-wrapper {
+	// .left-side {
+	// 	height: 550px;
+	// }
+
+	.right-side {
+		color: green;
+	}
+}

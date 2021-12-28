@@ -1,0 +1,28 @@
+.no-match {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	margin-top: 18px;
+	font-size: 1.5em;
+	font-style: italic;
+	display: grid;
+
+	.no-match-link {
+		margin-top: 20px;
+	}
+
+	a {
+		font-size: 2em;
+		cursor: pointer;
+		color: white;
+		font-weight: 700;
+		margin-right: 30px;
+		margin-bottom: 30px;
+		transition: 0.5s ease-in-out;
+
+		&:hover {
+			color: $light-blue;
+		}
+	}
+}

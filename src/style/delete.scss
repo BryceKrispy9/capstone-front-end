@@ -1,0 +1,16 @@
+.post-delete-wrapper {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	a {
+		margin-left: 15px;
+		color: white;
+		cursor: pointer;
+		transition: 0.5s ease-in-out;
+
+		&:hover {
+			color: darkred;
+		}
+	}
+}
