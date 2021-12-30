@@ -1,12 +1,14 @@
 @media (max-width: 680px) {
 	body {
 		background-size: 500% !important;
+		height: 100vh !important;
 	}
 
 	// Home page styles
 
 	.nav-wrapper {
 		align-items: center !important;
+		padding-left: 0px !important;
 	}
 
 	.nav-wrapper > .left-side {
@@ -18,13 +20,14 @@
 	}
 
 	.logo-img-wrapper img {
-		height: 150px !important;
+		height: 100px !important;
+		padding-left: 85px !important;
 	}
 
 	.auth-page-wrapper > .right-side {
 		position: fixed !important;
-		left: auto !important;
-		right: 0 !important;
+		left: 9px !important;
+		right: -75px !important;
 		margin-right: 85px !important;
 	}
 
