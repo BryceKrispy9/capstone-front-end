@@ -75,6 +75,9 @@ export default class PostForm extends Component {
 					this.setState({ current: response.data });
 				}
 			})
+			.then(() => {
+				window.location.href = `https://swim-set-central.herokuapp.com/p/${this.state.current.id}`;
+			})
 			.catch((error) => {
 				console.log("handleSubmit for post error", error);
 			});

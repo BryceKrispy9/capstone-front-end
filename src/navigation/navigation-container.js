@@ -7,9 +7,10 @@ const NavigationComponent = (props) => {
 	const dynamicLink = (route, linkText) => {
 		return (
 			<div className="nav-link-wrapper">
-				<NavLink to="/fourms/admin" activeClassName="nav-link-active">
-					Add & Edit Sets
-				</NavLink>
+				<NavLink
+					to="/fourms/admin"
+					activeClassName="nav-link-active"
+				></NavLink>
 			</div>
 		);
 	};
@@ -60,10 +61,9 @@ const NavigationComponent = (props) => {
 			</div>
 
 			<div className="right-side">
-				An App built by Bryce Pearson
 				{props.loggedInStatus === "LOGGED_IN" ? (
 					<a onClick={refreshPage}>
-						<FontAwesomeIcon icon="sign-out-alt" />
+						Log Out <FontAwesomeIcon icon="sign-out-alt" />
 					</a>
 				) : null}
 			</div>
